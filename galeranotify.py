@@ -29,7 +29,7 @@ import socket
 THIS_SERVER = socket.gethostname()
 
 # Server hostname or IP address
-SMTP_SERVER = 'YOUR_SMTP_HERE'
+SMTP_SERVER = '127.0.0.1'
 SMTP_PORT = 25
 
 # Set to True if you need SMTP over SSL
@@ -42,9 +42,9 @@ SMTP_USERNAME = ''
 SMTP_PASSWORD = ''
 
 # Takes a single sender
-MAIL_FROM = 'YOUR_EMAIL_HERE'
+MAIL_FROM = 'xtradb'
 # Takes a list of recipients
-MAIL_TO = ['SOME_OTHER_EMAIL_HERE']
+MAIL_TO = ['root']
 
 # Edit below at your own risk
 ################################################################################
